@@ -42,7 +42,7 @@ window.addEventListener('scroll', function (event) {
   }
 
   // add active class to links when scrolling
-  const elementIndex = Math.floor(scroll / clientHeight);
+  const elementIndex = Math.floor(scroll / clientHeight + 0.1);
   navLink.forEach((link, key) => {
     if (key === elementIndex) {
       link.className = 'nav-link active';

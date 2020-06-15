@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
 /* Color Constants */
 :root {
@@ -53,8 +54,10 @@ body {
 
 /* Navbar Logo */
 #nav-logo {
-  padding: 18px 10px;
+  padding: 10px 10px;
   color: var(--primary-color);
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.7rem;
 }
 
 /* Navbar links */
@@ -136,7 +139,8 @@ body {
 
 /* About section */
 .zone {
-  margin: 30px;
+  margin: 10px auto 30px auto;
+  max-width: 900px;
 }
 
 .subtitle {
@@ -167,6 +171,8 @@ body {
   align-items: flex-start;
   justify-content: center;
   grid-template-columns: repeat(4, 1fr);
+  max-width: 900px;
+  margin: auto;
 }
 .span-3 {
   grid-column: span 3;
@@ -246,6 +252,8 @@ body {
 /* Contact area */
 #contact {
   min-height: 100vh;
+  max-width: 900px;
+  margin: auto;
 }
 
 /* location */
@@ -253,23 +261,24 @@ body {
   max-width: 400px;
   margin: auto;
   box-shadow: 0px 2px 4px var(--primary-color-03);
-  padding: 12px;
+  padding: 24px;
 }
 .location {
   padding: 8px;
   margin-top: 24px;
+  margin-bottom: 12px;
 }
 .address {
   text-align: center;
   color: var(--primary-color);
-  margin-bottom: 15px;
+  margin-bottom: 24px;
   box-shadow: 0px 2px 4px var(--primary-color-03);
   border-left: 4px solid var(--primary-color-03);
 }
 #map {
   height: 400px;
   width: 90%;
-  margin: auto;
+  margin: 8px auto 24px auto;
   box-shadow: 0px 2px 4px var(--primary-color-03);
 }
 
